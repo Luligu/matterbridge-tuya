@@ -3,7 +3,7 @@
  *
  * @file src\index.ts
  * @author Luca Liguori
- * @date 2024-05-01
+ * @date 2024-08-28
  * @version 1.0.0
  *
  * Copyright 2024, 2025 Luca Liguori.
@@ -23,7 +23,7 @@
 
 import { Matterbridge, PlatformConfig } from 'matterbridge';
 import { AnsiLogger } from 'matterbridge/logger';
-import { ShellyPlatform } from './platform.js';
+import { TuyaPlatform } from './platform.js';
 
 /**
  * This is the standard interface for Matterbridge plugins.
@@ -32,10 +32,10 @@ import { ShellyPlatform } from './platform.js';
  * @param {Matterbridge} matterbridge - An instance of MatterBridge. This is the main interface for interacting with the MatterBridge system.
  * @param {AnsiLogger} log - An instance of AnsiLogger. This is used for logging messages in a format that can be displayed with ANSI color codes.
  * @param {PlatformConfig} config - The platform configuration.
- * @returns {ShellyPlatform} - An instance of the ShellyPlatform. This is the main interface for interacting with the Shellies.
+ * @returns {TuyaPlatform} - An instance of the ShellyPlatform. This is the main interface for interacting with the Shellies.
  *
  */
 
-export default function initializePlugin(matterbridge: Matterbridge, log: AnsiLogger, config: PlatformConfig): ShellyPlatform {
-  return new ShellyPlatform(matterbridge, log, config);
+export default function initializePlugin(matterbridge: Matterbridge, log: AnsiLogger, config: PlatformConfig): TuyaPlatform {
+  return new TuyaPlatform(matterbridge, log, config);
 }
