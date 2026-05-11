@@ -1,6 +1,6 @@
 {
   "name": "matterbridge-tuya",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Matterbridge tuya plugin",
   "author": "https://github.com/Luligu",
   "license": "Apache-2.0",
@@ -131,7 +131,7 @@
     "@eslint/markdown": "8.0.1",
     "@jest/globals": "30.4.1",
     "@types/jest": "30.0.0",
-    "@types/node": "25.6.2",
+    "@types/node": "25.7.0",
     "@vitest/coverage-v8": "4.1.6",
     "@vitest/eslint-plugin": "1.6.17",
     "cross-env": "10.1.0",
