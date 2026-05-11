@@ -1,11 +1,8 @@
-const MATTER_PORT = 6000;
 const NAME = 'Platform';
-const HOMEDIR = path.join('jest', NAME);
+const MATTER_PORT = 6000;
 
-import path from 'node:path';
-
-import { PlatformConfig } from 'matterbridge';
 import { jest } from '@jest/globals';
+import { PlatformConfig } from 'matterbridge';
 import {
   addMatterbridgePlatform,
   createMatterbridgeEnvironment,
@@ -20,7 +17,7 @@ import {
 
 import initializePlugin, { Platform } from './module.js';
 
-setupTest('Platform');
+setupTest(NAME);
 
 describe('TestPlatform', () => {
   let platform: Platform;
@@ -35,7 +32,7 @@ describe('TestPlatform', () => {
 
   beforeAll(async () => {
     // Create Matterbridge environment
-    await createMatterbridgeEnvironment(NAME);
+    await createMatterbridgeEnvironment();
     await startMatterbridgeEnvironment(MATTER_PORT);
   });
 
