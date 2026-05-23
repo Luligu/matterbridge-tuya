@@ -28,6 +28,7 @@ export class Platform extends MatterbridgeDynamicPlatform {
     this.log.info('Finished initializing platform:', this.config.name);
   }
 
+  // eslint-disable-next-line @typescript-eslint/require-await
   override async onStart(reason?: string): Promise<void> {
     this.log.info('onStart called with reason:', reason ?? 'none');
   }
