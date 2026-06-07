@@ -44,11 +44,8 @@ describe('TestPlatform', () => {
 
   afterEach(async () => {
     // No errors logged during tests
-    // eslint-disable-next-line vitest/no-standalone-expect
     expect(loggerWarnSpy).not.toHaveBeenCalled();
-    // eslint-disable-next-line vitest/no-standalone-expect
     expect(loggerErrorSpy).not.toHaveBeenCalled();
-    // eslint-disable-next-line vitest/no-standalone-expect
     expect(loggerFatalSpy).not.toHaveBeenCalled();
     // Clear debug
     await setDebug(false);

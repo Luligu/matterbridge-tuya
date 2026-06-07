@@ -1,4 +1,4 @@
-// .oxlintrc.json 1.0.2
+// .oxlintrc.json 1.0.3
 
 // This Oxlint configuration is designed for a TypeScript project using ESM modules.
 {
@@ -114,7 +114,8 @@
         "typescript/no-explicit-any": "off",
         "typescript/unbound-method": "off",
         "jest/require-to-throw-message": "off",
-        "jest/no-conditional-in-test": "off"
+        "jest/no-conditional-in-test": "off",
+        "jest/no-standalone-expect": "off"
       }
     },
     /* Vitest */
@@ -131,7 +132,8 @@
         "typescript/no-explicit-any": "off",
         "typescript/unbound-method": "off",
         "vitest/require-to-throw-message": "off",
-        "vitest/no-conditional-tests": "off"
+        "vitest/no-conditional-tests": "off",
+        "vitest/no-standalone-expect": "off"
       }
     }
   ]
