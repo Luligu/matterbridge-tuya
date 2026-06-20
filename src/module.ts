@@ -1,6 +1,5 @@
-import { MatterbridgeDynamicPlatform } from 'matterbridge';
-import type { PlatformConfig, PlatformMatterbridge } from 'matterbridge';
-import { type AnsiLogger } from 'matterbridge/logger';
+import { MatterbridgeDynamicPlatform, type PlatformConfig, type PlatformMatterbridge } from 'matterbridge';
+import type { AnsiLogger } from 'matterbridge/logger';
 
 /**
  * This is the standard interface for Matterbridge plugins.
