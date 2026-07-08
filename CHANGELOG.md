@@ -6,6 +6,17 @@ All notable changes to this project will be documented in this file.
 
 If you like this project and find it useful, please consider giving it a star on GitHub at https://github.com/Luligu/matterbridge-tuya and sponsoring it.
 
+## [0.0.3] - Dev branch
+
+### Breaking changes
+
+- Require matterbridge v.3.9.0.
+
+### Changed
+
+- [package]: Upgrade package.
+- [package]: Update dependencies.
+
 ## [0.0.1] - 2024-08-28
 
 First published release.
