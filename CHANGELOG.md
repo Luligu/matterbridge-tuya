@@ -27,6 +27,14 @@ All notable changes to this project will be documented in this file.
 
 If you like this project and find it useful, please consider giving it a star on GitHub at https://github.com/Luligu/matterbridge-tuya and sponsoring it.
 
+## [0.0.4] - Dev branch
+
+### Breaking changes
+
+- [matterbridge]: Require matterbridge v.3.10.0 with matter v.1.6.0 and matter.js v.0.17.5.
+
+<a href="https://www.buymeacoffee.com/luligugithub"><img src="https://matterbridge.io/assets/bmc-button.svg" alt="Buy me a coffee" width="80"></a>
+
 ## [0.0.3] - 2026-07-17
 
 ### Breaking changes
