@@ -30,7 +30,7 @@ If you like this project and find it useful, please consider giving it a star on
 
 <a href="https://www.buymeacoffee.com/luligugithub"><img src="https://matterbridge.io/assets/bmc-button.svg" alt="Buy me a coffee" width="120"></a>
 
-## [0.0.4] - Dev branch
+## [0.0.4] - 2026-08-14
 
 ### Breaking changes
 
